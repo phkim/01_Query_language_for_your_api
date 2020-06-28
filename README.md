@@ -1,1 +1,1 @@
-# Query_language_for_your_api
+# Query language for your api
