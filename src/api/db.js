@@ -3,13 +3,11 @@ const users = [
     id: 1,
     email: "phkim@ebay.com",
     name: "Philjae Kim",
-    posts: posts.filter(post.author.id === 1)
   },
   {
     id: 2,
     email: "smpark@ebay.com",
     name: "Sungmin Park",
-    posts: posts.filter(post.author.id === 2)
   }
 ]
 
@@ -57,3 +55,5 @@ const posts = [
     author: users[1]
   }
 ]
+
+export default posts;
