@@ -1,10 +1,10 @@
-import posts from "../db";
+import posts from "../../db";
 
 export default {
   Query: {
     feeds: async (_, args) => {
       try {
-        console.log(posts);
+        //console.dir(posts);
       } catch (e) {
         console.log(e);
       }
