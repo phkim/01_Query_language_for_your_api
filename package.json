@@ -1,0 +1,29 @@
+{
+  "name": "01_Query_language_for_your_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/phkim/01_Query_language_for_your_api.git",
+  "author": "philjae <philjae@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.10.4",
+    "@graphql-tools/load-files": "^6.0.12",
+    "@graphql-tools/merge": "^6.0.12",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.3.0",
+    "graphql-tools": "^6.0.12",
+    "graphql-yoga": "^1.18.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
