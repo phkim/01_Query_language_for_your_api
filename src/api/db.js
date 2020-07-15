@@ -56,4 +56,7 @@ const posts = [
   }
 ]
 
+users[0].posts = posts.filter(post => post.author.id === 1);
+users[1].posts = posts.filter(post => post.author.id === 2);
+
 export default posts;
