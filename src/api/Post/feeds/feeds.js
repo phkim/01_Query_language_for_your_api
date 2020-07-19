@@ -1,4 +1,4 @@
-import posts from "../db";
+import posts from "../../db";
 
 export default {
   Query: {
